@@ -26,10 +26,7 @@
     -webkit-transition: all .3s ease;
 }
 
-.projetos .container-projetos .projeto:hover,
-.projetos .container-projetos .projeto:hover .informacoes-projeto {
-    opacity: 0.8;
-}
+
 
 .projetos .container-projetos .projeto .visualizacao {
     height: 20rem;
@@ -38,17 +35,18 @@
     justify-content: center;
 }
 
+.projetos .container-projetos .projeto .visualizacao:hover {
+opacity: 0.5;
+}
+
 .projetos .container-projetos .projeto img {
     border-radius: 15px;
     width: 100%;
     height: 100%;
     background-color: white;
+    padding: 3rem;
 }
-.dice{
-    width: 80%;
-    height: 80%;
-    
-}
+
 .projetos .container-projetos .projeto .informacoes-projeto {
     padding-left: 20px;
 }
@@ -56,5 +54,9 @@
 .projetos .container-projetos .projeto .informacoes-projeto p {
     font-weight: 500;
     margin-top: 10px;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+}
+
+.projetos .container-projetos .projeto .informacoes-projeto i {
+    font-size: 27px;
 }
